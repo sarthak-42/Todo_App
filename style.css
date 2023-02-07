@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.tool-box-cont{
+    height: 5rem;
+    background-color: #3d3d3d;
+    display: flex;
+    align-items: center;
+
+
+}
+.tool-box-cont>*{
+    margin-left: 4rem;
+    border-radius: 4px;
+
+
+}
+.toolbox-priority-cont{
+    height: 3rem;
+    width: 18rem;
+    background-color:#4b4b4b;
+    display :flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.action-btn-cont{
+    background-color:#4b4b4b ;
+    height: 3rem;
+    width: 7rem;
+    display: flex;
+   
+   
+
+}
+.action-btn-cont>*{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    color:aliceblue ;
+    align-items: center;
+
+}
+.color{
+    height: 1.5rem;
+    width: 3rem;
+  
+}
+.lightpink{
+    background-color: lightpink;
+}
+.lightgreen{
+    background-color: lightgreen;
+}
+.lightblue{
+
+    background-color: lightblue;
+}
+.black{
+ 
+    background-color: black;
+}
+.action-btn-cont>*:hover{
+    background-color: aquamarine;
+}
+.modal-cont{
+    height: 50vh;
+    width: 45vw;
+    display: none ;
+    background-color: aqua;
+    position: absolute;
+    top: calc((100vh - 50vh)/2);
+    left: calc((100vw - 45vw)/2)
+    
+}
+.textarea-cont{
+    height: 100%;
+    width: 75%;
+    resize: none;
+    outline: none;
+    border: none;
+    background-color: azure;
+    padding: 2rem;
+    font-size: 2rem;
+}
+.priority-color{
+    height: 3rem;
+    width: 6rem;
+
+}
+.priority-colors-cont{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color:#4b4b4b ;
+}
+.active{
+    border: 5px solid white;
+
+}
+.main-cont{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 1rem;
+
+
+}
+.ticket-cont{
+    height: 12rem;
+    width: 15rem;
+    background-color:aliceblue
+    
+}
+.ticket-color{
+    height: 1rem;
+    
+}
+.ticket-id{
+    height: 2rem;
+    background-color: beige;
+    padding-top: .65rem;
+    font-size: small;
+}
+.text-area{
+    height: calc(100% - 1rem - 2rem - 2rem);
+    font-size: 1.5rem;
+    padding: 8px;
+    outline: none;
+}
+.ticket-lock {
+    height: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right:1rem ; 
+    font-size: 1.5rem;
+    color: #a5b1c2;
+    margin-top: 90px;
+    margin-right: 1px;
+
+  }
